@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RecipesModule } from './recipes/recipes.module';
+import { MaterialModule } from './shared/material.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { RecipesModule } from './recipes/recipes.module';
     BrowserAnimationsModule,
     AppRoutingModule,
     RecipesModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
