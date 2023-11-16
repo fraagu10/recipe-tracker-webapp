@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { RecipesRoutingModule } from './recipes-routing.module';
 import { MaterialModule } from '../shared/material.module';
 import { FormsModule } from '@angular/forms';
-import { RecipeSearchComponent } from './recipe-search/recipe-search.component';
+import { RecipeSearchComponent } from './components/recipe-search/recipe-search.component';
 
 @NgModule({
   declarations: [
