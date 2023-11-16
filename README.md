@@ -1,6 +1,11 @@
 # RecipeWebapp
+This is a simple web application that allows you to create a recipe book. This is a prototype and is currently under construction.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+
+## Aproximate Requirements
+- npm 8.19.4
+- Node 16.20.2
 
 ## Development server
 
