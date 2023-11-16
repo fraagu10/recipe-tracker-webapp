@@ -5,10 +5,12 @@ import { RecipesRoutingModule } from './recipes-routing.module';
 import { MaterialModule } from '../shared/material.module';
 import { FormsModule } from '@angular/forms';
 import { RecipeSearchComponent } from './components/recipe-search/recipe-search.component';
+import { RecipeBookComponent } from './components/recipe-book/recipe-book.component';
 
 @NgModule({
   declarations: [
-    RecipeSearchComponent
+    RecipeSearchComponent,
+    RecipeBookComponent
   ],
   imports: [
     CommonModule,
