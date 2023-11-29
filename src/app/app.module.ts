@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecipesModule } from './recipes/recipes.module';
 import { MaterialModule } from './shared/material.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    WelcomePageComponent
   ],
   imports: [
     BrowserModule,
