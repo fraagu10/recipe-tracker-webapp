@@ -1,1 +1,23 @@
-<p>recipe-book works!</p>
+<h1>Welcome to your virtual recipe book!</h1>
+
+<mat-drawer-container class="recipebook-container" autosize>
+
+    <mat-drawer #drawer class="recipebook-sidenav" mode="push">
+        <p>Auto-resizing sidenav</p>
+        <mat-list role="list">
+            <mat-list-item role="listitem">Item 1</mat-list-item>
+            <mat-list-item role="listitem">Item 2</mat-list-item>
+            <mat-list-item role="listitem">Item 3</mat-list-item>
+          </mat-list>          
+    </mat-drawer>
+  
+    <div class="recipebook-sidenav-content">
+        <button type="button" mat-button (click)="drawer.toggle()">
+            Toggle sidenav
+        </button>
+        <h1>Main content bellow </h1>
+        <app-recipe-search></app-recipe-search>
+    </div>
+  
+  </mat-drawer-container>
+  
