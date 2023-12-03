@@ -1,6 +1,9 @@
-<h1>Welcome to your virtual recipe book!</h1>
-
 <mat-drawer-container class="recipebook-container" autosize>
+
+    <button type="button" mat-button color="primary" (click)="drawer.toggle()">
+        Toggle sidenav
+    </button>
+    <span>Welcome to your virtual recipe book [insert name if logged in]!</span>
 
     <mat-drawer #drawer class="recipebook-sidenav" mode="push">
         <p>Auto-resizing sidenav</p>
@@ -11,12 +14,14 @@
           </mat-list>          
     </mat-drawer>
   
-    <div class="recipebook-sidenav-content">
-        <button type="button" mat-button (click)="drawer.toggle()">
-            Toggle sidenav
-        </button>
-        <h1>Main content bellow </h1>
-        <app-recipe-search></app-recipe-search>
+    <div class="recipebook-main-content">
+        <h1>Search for a recipe here</h1>
+        <div>
+            <app-recipe-search></app-recipe-search>
+        </div>
+        <hr>
+        <h2>Display searched content bellow </h2>
+        <span>More content to come</span>
     </div>
   
   </mat-drawer-container>
